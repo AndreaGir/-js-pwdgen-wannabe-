@@ -14,5 +14,5 @@ console.log(prompt)
 
 let datiUser = primaPartePassword + secondaPartePassword + terzaPartePassword
 
-password.innerHTML = datiUser
+password.innerHTML = datiUser + numero
 
