@@ -1,18 +1,28 @@
 
 
-let primaPartePassword = prompt( ' Come ti chiami? ' )
+let primaPartePassword = prompt( ' Come ti chiami? ' );
 
-password.innerHTML = primaPartePassword
 
-let secondaPartePassword = prompt( ' Quale è il tuo cognome? ' )
+
+let secondaPartePassword = prompt( ' Quale è il tuo cognome? ' );
 console.log(prompt)
 
-password.innerHTML = primaPartePassword + secondaPartePassword
 
-let terzaPartePassword = prompt( ' Quale è il tuo colore preferito? ' )
-console.log(prompt)
 
-let datiUser = primaPartePassword + secondaPartePassword + terzaPartePassword
+let terzaPartePassword = prompt( ' Quale è il tuo colore preferito? ' );
+console.log(terzaPartePassword)
 
-password.innerHTML = datiUser + numero
+let datiUser = primaPartePassword + secondaPartePassword + terzaPartePassword;
+
+
+let numero = '21';
+
+let totPassword = datiUser + numero
+
+let passwordHTML
+
+ 
+
+ password.innerHTML = totPassword
+
 
